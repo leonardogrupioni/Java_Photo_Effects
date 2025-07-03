@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Controller
+comment0.text=\r\n\ Menu\ para\ realizar\ altera\u00E7\u00F5es\ na\ imagem\r\n\ \r\n\ @author\ Joao\ Pedro\ Figols\ Neco,\ Julia\ Gachido\ Schmidt,\ Leonardo\ Fajardo\ Grupioni\r\n\ @version\ 20231119\r\n
+comment1.params=imagem\ nomeArquivo
+comment1.target=Controller(java.awt.image.BufferedImage,\ java.lang.String)
+comment1.text=\r\n\ Constroi\ o\ menu\ para\ aparecer\ a\ imagem,\ gera\ todas\ as\ imagens\ com\ filtros\ e\ salva\ os\ pixels\r\n\r\n\ @param\ imagem\ -\ escolhida\ pelo\ usuario\r\n\ @param\ nomeArquivo\ -\ nome\ da\ imagem\ \r\n
+comment2.params=imagem\ l\ h
+comment2.target=int[][][]\ SalvarPixels(java.awt.image.BufferedImage,\ int,\ int)
+comment2.text=\r\n\ Salva\ cada\ pixel\ da\ imagem\ originalmente\ escolhida\r\n\r\n\ @param\ imagem\ -\ escolhida\ pelo\ usuario\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ img\ -\ uma\ matriz\ de\ 3\ dimensoes,\ apresentando\ todos\ os\ pixels\ para\ cada\ RGB\r\n
+comment3.params=imagem
+comment3.target=void\ mostrarImagem(java.awt.image.BufferedImage)
+comment3.text=\r\n\ Mostra\ o\ menu\ juntamente\ com\ a\ imagem\ \r\n\r\n\ @param\ imagem\ -\ escolhida\ pelo\ usuario\r\n
+comment4.params=imagem\ img\ l\ h
+comment4.target=void\ gerarImagens(java.awt.image.BufferedImage,\ int[][][],\ int,\ int)
+comment4.text=\r\n\ Gera\ as\ imagens\ com\ filtros\ (Preto\ e\ branco,\ tons\ de\ cinza,\ sepia\ e\ cores\ invertidas),\ e\ ainda,\ gera\ o\ histograma\ de\ intensidade\ de\ cinza\r\n\r\n\ @param\ imagem\ -\ escolhida\ pelo\ usuario\r\n\ @param\ img\ -\ matriz\ com\ pixels\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n
+comment5.params=
+comment5.target=void\ salvarTudo()
+comment5.text=\r\n\ Salva\ 5\ arquivos,\ cada\ um\ corresponte\ com\ um\ filtro\r\n\r\n
+numComments=6

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AlterarImagem
+comment0.text=\r\n\ Permiti\ modificar\ a\ imagem\ a\ partir\ de\ cada\ filtro\r\n\ \r\n\ @author\ Joao\ Pedro\ Figols\ Neco,\ Julia\ Gachido\ Schmidt,\ Leonardo\ Fajardo\ Grupioni\r\n\ @version\ 20231119\r\n
+comment1.params=img\ l\ h
+comment1.target=int[][]\ transTonsC(int[][][],\ int,\ int)
+comment1.text=\r\n\ Gera\ imagem\ de\ tons\ de\ cinza\r\n\r\n\ @param\ img\ -\ matriz\ de\ pixel\ da\ imagem\ original\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ imgTC\ -\ matriz\ de\ pixel\ com\ cada\ cor\ alterada\r\n
+comment2.params=img\ l\ h
+comment2.target=int[][]\ transPB(int[][][],\ int,\ int)
+comment2.text=\r\n\ Gera\ imagem\ preto\ e\ branco\r\n\r\n\ @param\ img\ -\ matriz\ de\ pixel\ da\ imagem\ original\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ PB\ -\ matriz\ de\ pixels\ com\ cada\ cor\ alterada\r\n
+comment3.params=img\ l\ h
+comment3.target=int[][][]\ transSP(int[][][],\ int,\ int)
+comment3.text=\r\n\ Gera\ imagem\ sepia\r\n\r\n\ @param\ img\ -\ matriz\ de\ pixel\ da\ imagem\ original\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ SP\ -\ matriz\ de\ pixels\ com\ cada\ cor\ alterada\r\n
+comment4.params=img\ l\ h
+comment4.target=int[][][]\ transInv(int[][][],\ int,\ int)
+comment4.text=\r\n\ Gera\ imagem\ com\ cores\ invertidas\r\n\r\n\ @param\ img\ -\ matriz\ de\ pixel\ da\ imagem\ original\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ IV\ -\ matriz\ de\ pixels\ com\ cada\ cor\ alterada\r\n
+comment5.params=img\ l\ h
+comment5.target=java.awt.image.BufferedImage\ gerarImagemMonocromatica(int[][],\ int,\ int)
+comment5.text=\r\n\ Gera\ as\ imagem\ a\ partir\ dos\ pixels\r\n\r\n\ @param\ img\ -\ matriz\ com\ pixels\ de\ imagens\ monocromaticas\ (preto,\ branco\ e\ cinza)\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ image\ -\ imagem\ gerada\r\n
+comment6.params=img\ l\ h
+comment6.target=java.awt.image.BufferedImage\ gerarImagemRGB(int[][][],\ int,\ int)
+comment6.text=\r\n\ Gera\ as\ imagem\ a\ partir\ dos\ pixels\r\n\r\n\ @param\ img\ -\ matriz\ com\ pixels\ de\ imagens\ RGB\ (coloridas)\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ image\ -\ imagem\ gerada\r\n
+numComments=7

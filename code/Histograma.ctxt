@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Histograma
+comment0.text=\r\n\ Constroi\ o\ histograma\r\n\ \r\n\ @author\ Joao\ Pedro\ Figols\ Neco,\ Julia\ Gachido\ Schmidt,\ Leonardo\ Fajardo\ Grupioni\r\n\ @version\ 20231119\r\n
+comment1.params=img\ l\ h
+comment1.target=int[]\ gerarHistogramaTonsC(int[][],\ int,\ int)
+comment1.text=\r\n\ M\u00E9todo\ gerarHistogramaTonsC\r\n\r\n\ @param\ img\ -\ matriz\ de\ pixels\ da\ imagem\ de\ tonalidades\ acinzentadas\r\n\ @param\ l\ -\ largura\ da\ imagem\r\n\ @param\ h\ -\ altura\ da\ imagem\r\n\ @return\ H\ -\ matriz\ com\ a\ quantidade\ de\ cada\ intensidade\ de\ cinza\r\n
+comment2.params=H
+comment2.target=int[][][]\ gerarGraficoH(int[])
+comment2.text=\r\n\ Gera\ o\ gr\u00E1fico\ de\ histograma\r\n\r\n\ @param\ H\ -\ matriz\ com\ a\ quantidade\ de\ cada\ tonalidade\ de\ cinza\r\n\ @return\ M\ -\ matriz\ de\ pixels\ da\ imagem\ que\ representara\ o\ histograma\r\n
+comment3.params=imagem
+comment3.target=void\ mostrarH(java.awt.image.BufferedImage)
+comment3.text=\r\n\ Constroi\ a\ tela\ que\ mostrara\ o\ histograma\r\n\r\n\ @param\ imagem\ -\ histograma\ criado\ a\ partir\ dos\ pixels\r\n
+numComments=4
